@@ -1,16 +1,22 @@
 <script>
 import HelloWorld from'./components/HelloWorld.vue';
+import AppHero from './components/AppHero.vue';
+import Logo from './components/Logo.vue';
 
 export default {
   components:{
-    HelloWorld
+    HelloWorld,
+    AppHero,
+    Logo
   }
 }
 </script>
 
 <template>
   <div>
-    <HelloWorld />
+    <Logo />
+    <!-- <HelloWorld /> -->
+    <AppHero />
   </div>
 </template>
 <style>
